@@ -5,7 +5,7 @@ using namespace cv;
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    Mat srcImg = imread("C:/Users/fates/Desktop/OpenCVImg/0002-1.jpg");
+    Mat srcImg = imread("D:/OpenCVImg/0002-1.jpg");
     imshow("srcImg", srcImg);
 
     //矩形腐蚀

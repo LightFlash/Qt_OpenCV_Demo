@@ -7,7 +7,8 @@ using namespace cv;
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    VideoCapture capture("D:/OpenCVImg/0003-1.avi");
+    //VideoCapture capture("D:/OpenCVImg/0003-1.avi");
+    VideoCapture capture(0); //调用摄像头
     while (1) {
         Mat frame;
         capture >> frame;
